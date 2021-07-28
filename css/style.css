@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;400;500;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+.btn-main {
+    color: white;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px !important;
+    padding: .5rem .7rem;
+}
+
+.btn-main span {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.title {
+    font-family: 'Bebas Neue', cursive;
+    word-spacing: .1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #363958;
+}
+
+header,
+.navbar {
+    background-color: #FFF9F4 !important;
+}
+
+.navbar .nav-item .nav-link {
+    margin-left: 1.2rem;
+    font-weight: 500;
+    color: #3C3C3C;
+}
+
+.navbar .nav-item .nav-link.active,
+.navbar .nav-item .nav-link:hover {
+    color: #FA804C;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.banner {
+    padding: 2rem 0 4.5rem;
+}
+
+.banner .title {
+    font-size: 5rem;
+    line-height: 5rem;
+    color: #FA804C;
+}
+
+.banner .banner-text {
+    color: #3E3E3E;
+    line-height: 1.6rem;
+}
+
+.card {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.card .card-image {
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+
+.card .card-title {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.card .card-text {
+    color: #3E3E3E;
+}
+
+.card .card-footer h3 {
+    font-weight: 900;
+    font-size: 25px;
+    color: #FA804C;
+}
+
+.contact-us .card {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.contact-us .card .card-title {
+    color: #363958;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.contact-us .card .card-text {
+    color: #3E3E3E;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-us .card .card-icon img {
+        width: 20%;
+    }
+}
